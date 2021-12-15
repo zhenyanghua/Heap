@@ -179,11 +179,6 @@ class HuffmanTree {
     }
     return sb.join('');
   }
-
-  // todo print huffman tree
-  print(huffmanTree) {
-    
-  }
 }
 
 module.exports = HuffmanTree;
