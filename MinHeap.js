@@ -62,7 +62,7 @@ class MinHeap {
       }
       // check if right is smaller than the parent and the left
       if (right < n 
-      && this.compare(heap[right], heap[min] < 0) 
+      && this.compare(heap[right], heap[min]) < 0 
       && this.compare(heap[right], heap[left]) < 0 ) {
         min = right;
       }
